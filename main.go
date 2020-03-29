@@ -27,7 +27,7 @@ func main() {
 	}
 
 	opt := truetype.Options{
-		Size:              90,
+		Size:              45,
 		DPI:               0,
 		Hinting:           0,
 		GlyphCacheEntries: 0,
@@ -35,10 +35,10 @@ func main() {
 		SubPixelsY:        0,
 	}
 
-	imageWidth := 100
+	imageWidth := 200
 	imageHeight := 100
 	textTopMargin := 90
-	text := "ほ"
+	text := "ほう"
 
 	img := image.NewRGBA(image.Rect(0, 0, imageWidth, imageHeight))
 
