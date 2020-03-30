@@ -38,7 +38,7 @@ func main() {
 	imageWidth := 200
 	imageHeight := 100
 	textTopMargin := 90
-	text := "ほう"
+	text := "放課後クライマックスガールズ"
 
 	img := image.NewRGBA(image.Rect(0, 0, imageWidth, imageHeight))
 
